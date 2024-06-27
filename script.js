@@ -1,5 +1,5 @@
-const firstNames = ["Aria", "Liam", "Noah", "Emma", "Olivia", "Ava", "Mason", "Sophia"];
-const lastNames = ["Smith", "Johnson", "Brown", "Williams", "Jones", "Garcia", "Miller", "Davis"];
+const firstNames = ["Ade", "Boneka", "Kadal", "Bernard", "Oscar", "Sendal", "Kecoak", "Kacang"];
+const lastNames = ["Londok", "Mampang", "Bunting", "Bear", "Oasis", "Jepit", "Terbang", "Mede"];
 
 function getRandomName() {
     const firstName = firstNames[Math.floor(Math.random() * firstNames.length)];
