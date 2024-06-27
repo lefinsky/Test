@@ -11,7 +11,7 @@ document.getElementById("generateButton").addEventListener("click", () => {
     const userName = document.getElementById("nameInput").value;
     if (userName) {
         const name = getRandomName();
-        document.getElementById("nameDisplay").textContent = `Halo, ${userName}. Nama baru Anda adalah ${name}`;
+        document.getElementById("nameDisplay").textContent = `Halo, ${userName}. Khodam Anda adalah ${name}`;
     } else {
         alert("Silakan masukkan nama Anda");
     }
